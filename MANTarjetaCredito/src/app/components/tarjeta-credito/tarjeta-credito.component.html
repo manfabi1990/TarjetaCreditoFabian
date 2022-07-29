@@ -12,7 +12,7 @@
         <div class="col-lg-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="titulo">Agregar Tarjeta</h5>
+                    <h5 id="titleForm" class="titulo">{{action | uppercase}}</h5>
                     <form [formGroup]="form" (ngSubmit)="agregarTarjeta()" class="mt-4">
                         <div class="input-group input-group-lg mb-3">
                             <span class="input-group-text" id="basic-addon1">
@@ -52,8 +52,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="d-grid grap-2">
-                            <button type="submit" [disabled]="this.form.invalid" class="btn btn-success btn-lg"><i class="fa-solid fa-database"></i>&nbsp;&nbsp;Guardar Tarjeta</button>
+                        <div class=" grap-2">
+                            <button type="submit" [disabled]="this.form.invalid" class="btn btn-success btn-lg col-lg-12"><i class="fa-solid fa-database"></i>&nbsp;&nbsp;Guardar Tarjeta</button>
+                        </div>
+                        <div class=" grap-2" id="divCancelar" style="display: none !important;">
+                            <button type="button" (click) = "cancelar()" [disabled]="this.form.invalid" class="btn btn-danger btn-lg col-lg-12 mt-4"><i class="fa-solid fa-ban"></i>&nbsp;&nbsp;Cancelar</button>
                         </div>
                         
                     </form>

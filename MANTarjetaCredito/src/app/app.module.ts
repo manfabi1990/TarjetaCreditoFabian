@@ -8,7 +8,7 @@ import { TarjetaCreditoComponent } from './components/tarjeta-credito/tarjeta-cr
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [

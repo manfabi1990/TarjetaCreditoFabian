@@ -13,8 +13,7 @@ import Swal from 'sweetalert2';
 export class TarjetaCreditoComponent implements OnInit {
 
   listTarjetas: any[] = [];
-
-
+  action = "agregar tarjeta";
   form: FormGroup;
   numeroTarjetaInicio: any = "";
 
@@ -58,7 +57,7 @@ export class TarjetaCreditoComponent implements OnInit {
 
     if(this.verificaExistencia(this.numeroTarjetaInicio)){
       
-
+      
       const tarjeta: any = {
         titular: this.form.get("titular")?.value,
         numeroTarjeta: this.form.get("numeroTarjeta")?.value,
@@ -103,6 +102,8 @@ export class TarjetaCreditoComponent implements OnInit {
     }
 
     this.numeroTarjetaInicio="";
+    this.action = "agregar tarjeta";
+    document.getElementById("divCancelar")!.style.display = "none";
     this.form.reset();
 
   }
@@ -141,14 +142,17 @@ export class TarjetaCreditoComponent implements OnInit {
       }
     });
 
+    
     this.form.reset();
+    
     
   }
 
   editarTarjeta(index: number){
 
-    
-    
+
+    this.action = "editar tarjeta";
+
     this.form.setValue({
 
       "titular": this.listTarjetas[index].titular,
@@ -159,7 +163,16 @@ export class TarjetaCreditoComponent implements OnInit {
     
     this.numeroTarjetaInicio = this.form.get("numeroTarjeta")?.value;
     
+    document.getElementById("divCancelar")!.style.display = "block";
     
+  }
+
+  cancelar(){
+
+    this.action = "agregar tarjeta";
+    document.getElementById("divCancelar")!.style.display = "none";
+    this.form.reset();
+
   }
 
   private verificaExistencia(numeroTarjeta: string): boolean{

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manuel.torres.ITSONEDU\\source\\repos\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj": {}
+    "F:\\Users\\manuel.torres\\Desktop\\TarjetaCreditoFabian\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manuel.torres.ITSONEDU\\source\\repos\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj": {
+    "F:\\Users\\manuel.torres\\Desktop\\TarjetaCreditoFabian\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manuel.torres.ITSONEDU\\source\\repos\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj",
+        "projectUniqueName": "F:\\Users\\manuel.torres\\Desktop\\TarjetaCreditoFabian\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj",
         "projectName": "ManBTarjetas",
-        "projectPath": "C:\\Users\\manuel.torres.ITSONEDU\\source\\repos\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj",
+        "projectPath": "F:\\Users\\manuel.torres\\Desktop\\TarjetaCreditoFabian\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj",
         "packagesPath": "C:\\Users\\manuel.torres.ITSONEDU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manuel.torres.ITSONEDU\\source\\repos\\ManBTarjetas\\ManBTarjetas\\obj\\",
+        "outputPath": "F:\\Users\\manuel.torres\\Desktop\\TarjetaCreditoFabian\\ManBTarjetas\\ManBTarjetas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

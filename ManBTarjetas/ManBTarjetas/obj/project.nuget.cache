@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HJXD/kOrmf2uKs6hbWIIM0Qm5kIcJP3vGxr5v3K6VWzG7YF/ff2FY27pj0Bh3kjyNvByNELIxgsb8UmS8v8yJg==",
+  "dgSpecHash": "un0OJtra1xki+BWcJuJNKxXsoXIZcZcI5ovJ9Rk4VJDNMyFufcDLpMZkZ1NuYyYPDMhH14zXFxvwNfFq8wcS2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\manuel.torres.ITSONEDU\\source\\repos\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj",
+  "projectFilePath": "F:\\Users\\manuel.torres\\Desktop\\TarjetaCreditoFabian\\ManBTarjetas\\ManBTarjetas\\ManBTarjetas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manuel.torres.ITSONEDU\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\manuel.torres.ITSONEDU\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
